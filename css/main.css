@@ -1,0 +1,144 @@
+@import "./reset.css";
+
+body{
+    background-color: #aad4cf;
+    width: 1030px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header {
+    position: relative;
+   
+}
+
+.heading{
+    height: 340px;
+}
+
+
+.heading h1 {
+    position: absolute;
+    bottom: 75px;
+    left:335px;
+    font-size: 60px;
+    color: #fff;
+}
+
+.heading img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    background-color: #d4e9e7;
+}
+
+
+.nav-list {
+    padding-top: 4px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list li{
+    padding: 13px 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.nav-list li:nth-child(1),
+.nav-list li:nth-child(2){
+    border-right: 1px solid #000;
+}
+
+.article{
+    padding: 0 15px;
+}
+
+.article h2 {
+    font-size: 27px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+
+/* w250 h255 */
+.photo-float img {
+    width: 250px;
+    height: 255px;
+    float: left;
+    margin-right: 20px;
+}
+
+.main-text {
+line-height: 1.3;
+}
+
+
+.list-content, .contact{
+    padding-top: 35px;
+
+}
+
+
+.list-content ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.form-container {
+    border: 1px solid #000;
+    margin-top: 20px;
+    padding: 35px 18px 18px;
+}
+
+.contact-form input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 3px 0 3px 3px;
+    border: 1px solid #ccc;
+}
+
+#message {
+    height: 100px;
+    border: 1px solid #999;
+}
+
+.radio-form {
+    margin-top:10px;
+    font-weight: 500;
+}
+
+.radio-form input,
+.radio-form label {
+   margin-top: 20px;
+}
+
+#send{
+    background-color: transparent;
+    margin-top: 20px;
+    padding: 13px 10px;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.footer p {
+    text-align: right;
+    padding: 35px 20px 35px;
+    font-size: 13px;
+}
